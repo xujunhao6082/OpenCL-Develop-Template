@@ -12,7 +12,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "${env:GCC_HOME}/bin/gdb.exe",
+            "miDebuggerPath": "${config:project.gcc}/bin/gdb.exe",
             "setupCommands": [
                 {
                     "description": "启用 gdb 美化打印",
